@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Children } from 'react'
 import Link from 'gatsby-link'
 
 const IndexPage = () => (
@@ -10,7 +10,7 @@ const IndexPage = () => (
           Complete courses about the best tools and design systems. Prototype
           and build apps with React and Swift. Test
         </p>
-        <Link to="/page-2/">Visit Page 2!</Link>
+        <Link to="/page-2/">Watch the video</Link>
       </div>
     </div>
   </div>
